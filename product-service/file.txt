@@ -1,0 +1,20 @@
+API Documentation for Product Controller
+
+Base URL: /api/products
+
+1. Create a new product
+   - Method: POST
+   - Endpoint: /
+   - Request Body: ProductRequest (JSON)
+   - Response: ProductResponse (JSON)
+   - Status Code: 201 (Created)
+   - Description: Creates a new product with the provided details
+
+2. Retrieve all products
+   - Method: GET
+   - Endpoint: /
+   - Response: List of ProductResponse (JSON)
+   - Status Code: 200 (OK)
+   - Description: Retrieves a list of all available products
+
+Note: The API uses JSON for request and response bodies. Appropriate HTTP status codes are used to communicate results.
